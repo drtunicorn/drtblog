@@ -1,0 +1,34 @@
+drtblog
+-----
+My blog created using Hugo[1] based on Stephen Balaban's template[2].
+
+
+Usage
+----
+Make sure you have hugo installed on your system and clone the repository:
+
+    git clone https://github.com/drtunicorn/drtblog.git
+
+Running on your local machine:
+
+    cd drtblog
+    hugo server
+
+Build static pages:
+
+    cd drtblog
+    hugo
+
+command above will generate the public directory contain all the static pages then upload it to 
+your preferred hosting services.
+
+
+Credits
+-----
+Hugo - Static site generator
+Stephen Balaban - Blog template
+
+References
+-------
+[1] https://gohugo.io
+[2] https://github.com/stephenbalaban/stephenbalaban.com.

@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="{{ .Site.LanguageCode }}">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="{{ .Site.Params.author }}">
+        <link rel="icon" type="image/png" href="{{ "/img/icon.png" | absURL }}">
+        <link rel="stylesheet" type="text/css" href="{{ "/css/style.css" | absURL }}">
+        <title>{{ .Title }}</title>
+    </head>
+    <body>
+        <div id="navbar">
+            <a href="/"><img class="icon" src="{{ "/img/icon.png" | absURL }}" alt="drtunicorn"/></a>
+            {{ range .Site.Menus.main }}
+            <a href="{{ .URL }}">{{- .Name -}}</a>
+            {{ end }}
+        </div>
+        {{ block "main" . }} {{ end }}
+        <hr>
+        <p>go back to the <a href="{{ .Site.BaseURL }}">home page.</a>
+    </body>
+</html>

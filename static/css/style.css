@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif;
+}
+
+#navbar {
+    border-bottom: 1px solid #333;
+    overflow: hidden;
+}
+
+#navbar a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 19px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4, h5, h6 {
+    font-size: 17px;
+}
+
+p {
+    max-width: 100ch;
+}
+
+p,ul,ol {
+    font-size: 13px;
+    line-height: 17px;
+}
+
+img {
+    max-width: 100%;
+}
+
+hr {
+    border-top: 1px solid black;
+}
+
+pre {
+    background: beige;
+    padding: 10px;
+    overflow-x: scroll;
+}
+
+code {
+    white-space: pre;
+}
+
+table, th, td {
+    border: thin dashed;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.icon {
+    width: 20px;
+    display: block;
+}
+
+.date {
+    font-size: 13px;
+    color: #333;
+}

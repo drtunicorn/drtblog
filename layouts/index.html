@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div id="header">
+    <h1 class="title">Articles</h1>
+</div>
+<ul>
+    {{ range ( where .Site.RegularPages "Type" "post" ) }}
+    <li>
+        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006-01-02" }}</time>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+</ul>
+{{ if fileExists "/static/sources/drtunicorn.tar.gz" }}
+{{ $f := os.Stat "/static/sources/drtunicorn.tar.gz" }}
+<p>The source code of this site is avaliabe as <a href="/sources/drtunicorn.tar.gz">tarball</a> (size: {{ div $f.Size 1024}}KB)</p>
+{{ end }}
+{{ $contentdir := os.Stat "content" }}
+<p>Last Updated: {{ $contentdir.ModTime }}</p>
+{{ end }}
