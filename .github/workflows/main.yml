@@ -20,9 +20,7 @@ jobs:
           hugo-version: '0.96.0'
 
       - name: Create source
-        run: tar czvf ./static/sources/drtunicorn.tar.gz archetypes content layouts static/css \
-          static/img config.yml LICENSE README
-
+        run: tar czvf ./static/sources/drtunicorn.tar.gz archetypes content layouts static/css static/img config.yml LICENSE README
 
       - name: Build
         run: hugo --minify
@@ -32,3 +30,4 @@ jobs:
         with:
           personal_token: ${{ secrets.DRTUNICORN }}
           publish_dir: ./public
+          publish_branch: gh-pages
