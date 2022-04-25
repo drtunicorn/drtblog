@@ -19,7 +19,7 @@ Build static pages:
     cd drtblog
     hugo
 
-command above will generate the public directory contain all the static pages then upload it to 
+Command above will generate the public directory contain all the static pages then upload it to 
 your preferred hosting services.
 
 
