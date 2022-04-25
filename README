@@ -11,12 +11,12 @@ Make sure you have hugo installed on your system and clone the repository:
 
 Running on your local machine:
 
-    cd drtblog
+    cd drtunicorn.github.io
     hugo server
 
 Build static pages:
 
-    cd drtblog
+    cd drtunicorn.github.io
     hugo
 
 Command above will generate the public directory contain all the static pages then upload it to 
