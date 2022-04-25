@@ -20,7 +20,9 @@ jobs:
           hugo-version: '0.96.0'
 
       - name: Create source
-        run: tar czvf ./static/sources/drtunicorn.tar.gz archetypes content layouts static config.yml LICENSE README
+        run: |
+          mkdir -p ./static/sources
+          tar czvf ./static/sources/drtunicorn.tar.gz archetypes content layouts static config.yml LICENSE README
 
       - name: Build
         run: hugo --minify
