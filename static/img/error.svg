@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="65mm"
+   height="50mm"
+   viewBox="0 0 65 50"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="/home/dom/donix/src/drtunicorn/static/img/sick.png"
+   inkscape:export-xdpi="47.243999"
+   inkscape:export-ydpi="47.243999"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   sodipodi:docname="sick.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.4828946"
+     inkscape:cx="183.45523"
+     inkscape:cy="92.432439"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="64.752853"
+       y="290.08188"
+       width="517.62744"
+       height="452.53424"
+       id="rect6194" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-17.132286,-86.583672)">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.15046287,0,0,0.13874331,7.3895208,41.180576)"
+       id="text6192"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;white-space:pre;shape-inside:url(#rect6194);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="64.751953"
+         y="327.2453"
+         id="tspan22787"><tspan
+           style="font-family:'JetBrainsMono Nerd Font Bandit';-inkscape-font-specification:'JetBrainsMono Nerd Font Bandit'"
+           id="tspan22785">     _______
+</tspan></tspan><tspan
+         x="64.751953"
+         y="378.01355"
+         id="tspan22791"><tspan
+           style="font-family:'JetBrainsMono Nerd Font Bandit';-inkscape-font-specification:'JetBrainsMono Nerd Font Bandit'"
+           id="tspan22789">    |.-----.|
+</tspan></tspan><tspan
+         x="64.751953"
+         y="428.7818"
+         id="tspan22795"><tspan
+           style="font-family:'JetBrainsMono Nerd Font Bandit';-inkscape-font-specification:'JetBrainsMono Nerd Font Bandit'"
+           id="tspan22793">    ||x . x||
+</tspan></tspan><tspan
+         x="64.751953"
+         y="479.55005"
+         id="tspan22799"><tspan
+           style="font-family:'JetBrainsMono Nerd Font Bandit';-inkscape-font-specification:'JetBrainsMono Nerd Font Bandit'"
+           id="tspan22797">    ||_.-._||
+</tspan></tspan><tspan
+         x="64.751953"
+         y="530.31829"
+         id="tspan22803"><tspan
+           style="font-family:'JetBrainsMono Nerd Font Bandit';-inkscape-font-specification:'JetBrainsMono Nerd Font Bandit'"
+           id="tspan22801">    `--)-(--`
+</tspan></tspan><tspan
+         x="64.751953"
+         y="581.08654"
+         id="tspan22807"><tspan
+           style="font-family:'JetBrainsMono Nerd Font Bandit';-inkscape-font-specification:'JetBrainsMono Nerd Font Bandit'"
+           id="tspan22805">   __[=== o]___
+</tspan></tspan><tspan
+         x="64.751953"
+         y="631.85479"
+         id="tspan22811"><tspan
+           style="font-family:'JetBrainsMono Nerd Font Bandit';-inkscape-font-specification:'JetBrainsMono Nerd Font Bandit'"
+           id="tspan22809">  |:::::::::::|\
+</tspan></tspan><tspan
+         x="64.751953"
+         y="682.62304"
+         id="tspan22815"><tspan
+           style="font-family:'JetBrainsMono Nerd Font Bandit';-inkscape-font-specification:'JetBrainsMono Nerd Font Bandit'"
+           id="tspan22813">   `-=========-`()
+</tspan></tspan></text>
+  </g>
+</svg>

@@ -4,8 +4,6 @@ title: DRTUNICORN
 
 disableKinds: [taxonomy,taxonomyTerm]
 
-enableRobotsTXT: true
-
 markup:
   goldmark:
     renderer:
