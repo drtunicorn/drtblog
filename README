@@ -7,16 +7,14 @@ Usage
 ----
 Make sure you have hugo installed on your system and clone the repository:
 
-    git clone https://github.com/drtunicorn/drtunicorn.github.io.git
+    git clone https://github.com/drtunicorn/drtunicorn.github.io
 
 Running on your local machine:
 
-    cd drtunicorn.github.io
     hugo server
 
 Build static pages:
 
-    cd drtunicorn.github.io
     hugo
 
 Command above will generate the public directory contain all the static pages then upload it to 
@@ -31,4 +29,4 @@ Stephen Balaban - Blog template
 References
 -------
 [1] https://gohugo.io
-[2] https://github.com/stephenbalaban/stephenbalaban.com.
+[2] https://github.com/stephenbalaban/stephenbalaban.com
