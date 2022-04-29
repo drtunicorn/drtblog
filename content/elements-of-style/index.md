@@ -1,5 +1,6 @@
 ---
 title: "Elements of Style"
+description: "My favourite quote about writing"
 date: 2022-04-21T08:39:21+07:00
 type: post
 ---

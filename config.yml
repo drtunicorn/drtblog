@@ -11,6 +11,7 @@ markup:
 
 params:
   author: drtunicorn
+  description: Awesome website
 
 menu:
   main:

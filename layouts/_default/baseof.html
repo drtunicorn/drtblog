@@ -5,13 +5,18 @@
         <meta http-equiv="Content-Style-Type" content="text/css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="{{ .Site.Params.author }}">
+        <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
+        <meta property="og:title" content="{{ .Title }}" />
+        <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
+        <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+        <meta property="og:url" content="{{ .Permalink }}" />
         <link rel="icon" type="image/png" href="{{ "/img/icon.png" | absURL }}">
         <link rel="stylesheet" type="text/css" href="{{ "/css/style.css" | absURL }}">
         <title>{{ .Title }}</title>
     </head>
     <body>
         <div id="navbar">
-            <a href="/"><img class="icon" src="{{ "/img/icon.png" | absURL }}" alt="drtunicorn"/></a>
+            <a href="{{ .Site.BaseURL }}"><img class="icon" src="{{ "/img/icon.png" | absURL }}" alt="drtunicorn"/></a>
             {{ range .Site.Menus.main }}
             <a href="{{ .URL }}">{{- .Name -}}</a>
             {{ end }}
