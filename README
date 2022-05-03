@@ -7,7 +7,7 @@ Usage
 ----
 Make sure you have hugo installed on your system and clone the repository:
 
-    git clone https://github.com/drtunicorn/drtunicorn.github.io
+    git clone https://github.com/drtunicorn/drtblog
 
 Running on your local machine:
 
