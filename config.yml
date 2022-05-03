@@ -24,6 +24,10 @@ menu:
       url: "/about"
       weight: 2
 
+    - name: git
+      url: "https://git.drtunicorn.xyz"
+      weight: 3
+
     - name: ~drtunicorn
       url: "https://github.com/drtunicorn"
-      weight: 3
+      weight: 4
