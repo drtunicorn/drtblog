@@ -1,4 +1,6 @@
+.github/
 TODO
 .hugo_build.lock
 resources/
 public/
+static/sources
