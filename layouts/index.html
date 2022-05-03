@@ -14,6 +14,6 @@
 {{ $f := os.Stat "/static/sources/drtunicorn.tar.gz" }}
 <p>The source code of this site is avaliabe as <a href="/sources/drtunicorn.tar.gz">tarball</a> (size: {{ div $f.Size 1024}}KB)</p>
 {{ end }}
-{{ $lastup := os.Stat "." }}
+{{ $lastup := os.Stat "content" }}
 <p>Last Updated: {{ $lastup.ModTime }}</p>
 {{ end }}
