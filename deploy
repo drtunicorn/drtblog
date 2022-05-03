@@ -1,0 +1,6 @@
+#!/bin/sh
+
+tar czvf ./static/sources/drtunicorn.tar.gz archetypes content layouts static config.yml LICENSE README
+hugo && rsync -avz --delete public/ drtunicorn.xyz:~/public
+
+exit 0
