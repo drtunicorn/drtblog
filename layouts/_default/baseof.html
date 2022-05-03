@@ -25,7 +25,7 @@
         <div id="navbar">
             <a href="{{ .Site.BaseURL }}"><img class="icon" src="{{ "/img/icon.png" | absURL }}" alt="drtunicorn"/></a>
             {{ range .Site.Menus.main }}
-            <a href="{{ .URL }}">{{- .Name -}}</a>
+            <a href="{{ .URL }}" target="{{ if in .URL "https://" }}_blank{{ else }}_self{{ end }}">{{- .Name -}}</a>
             {{ end }}
         </div>
         {{ block "main" . }} {{ end }}
