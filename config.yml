@@ -12,7 +12,7 @@ markup:
 
 params:
   author: drtunicorn
-  description: Awesome website
+  description: Minimalist bloat-free website.
 
 menu:
   main:
